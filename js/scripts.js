@@ -10,10 +10,14 @@ var translateToPigLatin = function (str){
   // vowels = vowels.concat(vowels.join().toUpperCase().split(","));
   var consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
   consonants = consonants.concat(consonants.join().toUpperCase().split(","));
-  var firstLetter = str[0];
   var translated = str;
-  if (consonants.indexOf(firstLetter)>-1){
-    translated = moveFirstLetterToEnd(str);
+  var firstLetter = translated[0];
+
+  while (consonants.indexOf(firstLetter)>-1){
+    translated = moveFirstLetterToEnd(translated);
+    firstLetter = translated[0];
+    // console.log("new firstLetter is " + firstLetter);
+    // console.log(consonants.indexOf(firstLetter));
   }
   translated = translated + "ay";
   return translated;
