@@ -30,6 +30,8 @@ Website that translates a string submitted by the user into piglatin and display
 * The program should move all consecutive consonants AND "u"s that follow "q"s that fall into an initial cluster of consonants to the end of the word and then add "ay" to the end fo the word.
   * **Input Example**: "squeal"
   * **Output Example**: "ealsquay"
+  * **Input Example**: "Queen"
+  * **Output Example**: "eenQuay"
 
 ## Setup/Installation Requirements
 
