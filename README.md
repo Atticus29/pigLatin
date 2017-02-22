@@ -7,7 +7,7 @@
 
 ## Description
 
-This script takes three arguments from the user (repo name, parter 1 initials, and partner 2 initials), and uses those variables to create a directory with repo name, create a "css" subdirectory, create an "img" subdirectory, create a styles.css document in the css subdirectory, create an index.html document in the repo folder, initialized the folder as a git repo, executes `git pair` with partner 1's and partner 2's intials, adds everything, makes a first paired commit, and opens the directory in atom.
+Website that translates a string submitted by the user into piglatin and displays it.
 
 ### Specifications
 
