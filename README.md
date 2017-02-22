@@ -1,7 +1,7 @@
 
 # A bash script tool to help streamline creation of new websites for Epicodus
 
-#### 10 Feb., 2017, v.1.0.1
+#### 22 Feb., 2017, v.1.0.1
 
 #### By Mark Fisher
 
@@ -11,33 +11,29 @@ This script takes three arguments from the user (repo name, parter 1 initials, a
 
 ### Specifications
 
-* The program should return __ when __.
-  * **Input Example**: 
-  * **Output Example**:
+* The program should add "ay" at the end of a word beginning with a vowel.
+  * **Input Example**: "I"
+  * **Output Example**: "Iay"
 
-* The program should return __ when __.
-  * **Input Example**: 
-  * **Output Example**:
+* The program should move an initial consonant to the end of the word and then add "ay" to the end fo the word.
+  * **Input Example**: "pig"
+  * **Output Example**: "igpay"
+
+* The program should move an initial, _capitalized_ consonant to the end of the word and then add "ay" to the end fo the word.
+  * **Input Example**: "Pig"
+  * **Output Example**: "igPay"
+
+* The program should move all consecutive consonants to the end of the word and then add "ay" to the end fo the word.
+  * **Input Example**: "Trick"
+  * **Output Example**: "ickTray"
+
+* The program should move all consecutive consonants AND "u"s that follow "q"s that fall into an initial cluster of consonants to the end of the word and then add "ay" to the end fo the word.
+  * **Input Example**: "squeal"
+  * **Output Example**: "ealsquay"
 
 ## Setup/Installation Requirements
 
-### If working in pairs
-* Set up your .pairs document for the day
-* Clone this repo. (to your Desktop)
-* Open terminal
-* Navigate to the websiteRepoSetup directory: `cd ~/Desktop/websiteRepoSetup`. **This step is necessary because template files from websiteRepoSetup will need to be copied.**
-* Type `./websiteRepoSetup.sh [yourRepoName] [partner1Initials] [partner2Initials]`
-* Enjoy
-
-### If working alone
-* Clone this repo. (to your Desktop)
-* Open terminal
-* Navigate to the websiteRepoSetup directory: `cd ~/Desktop/websiteRepoSetup`. **This step is necessary because template files from websiteRepoSetup will need to be copied.**
-* Type `./websiteRepoSetupIndivid.sh [yourRepoName] ["Your first and last name in quotes"] [yourEmailAddress]
-* Enjoy
-
-### For the template
-* This repository is meant to be viewed. It can be viewed [here](https://Atticus29.github.io/_repoNameHere_).
+* This repository is meant to be viewed. It can be viewed [here](https://Atticus29.github.io/pigLatin).
 
 ### Or if you're feeling bold, you can clone OR download a local instance of the site:
 
@@ -46,11 +42,11 @@ This script takes three arguments from the user (repo name, parter 1 initials, a
     * On a Mac, this would be in the Applications/Utilities directory, and is called, "Terminal"
     * Windows uses a Terminal program as well, but a Terminal with all the capabilities we'll require is not installed by default. Thankfully, we can easily download and install a Terminal program that does fit our needs.
 There are many options available, but we recommend using a terminal program called git bash. You can download this free program at [msysgit.github.io](https://git-for-windows.github.io/).
-  * Clone this track survey repository by typing, `git clone https://github.com/Atticus29/TrackSuggester.git` 
-* Download 
-  * Click [here](https://github.com/Atticus29/_repoNameHere_/archive/master.zip) to download the repo
+  * Clone this track survey repository by typing, `git clone https://github.com/Atticus29/pigLatin.git`
+* Download
+  * Click [here](https://github.com/Atticus29/pigLatin/archive/master.zip) to download the repo
   * Unzip the zipped repository
-* Open the TrackSuggester folder and double-click on index.html.
+* Open the pigLatin folder and double-click on index.html.
 * Make your selections and click submit as instructed on the site.
 
 
@@ -79,7 +75,7 @@ Please feel free to contact mark.aaron.fisher@gmail.com for questions
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2017 Mark Fisher and Clifford Grimmell
+Copyright (c) 2017 Mark Fisher
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
