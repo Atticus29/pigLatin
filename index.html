@@ -9,11 +9,18 @@
   crossorigin="anonymous"></script>
   <!-- <script src="js/jquery-3.1.1.js"></script> -->
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>PigLatin Translator</title>
 </head>
 <body>
   <div class="container">
-
+    <form class="form" id="submitForm">
+      <label for="phrase-input"></label>
+      <input type="text" name="phrase-input" id="phrase-input">
+      <button type="submit" class="btn">Translate</button>
+    </form>
+    <div class="hiddenResults">
+      <p><span class="original"></span> translated into pigLatin is <span class="translated"></span></p>
+    </div>
   </div>
 </body>
 </html>

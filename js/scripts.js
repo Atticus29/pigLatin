@@ -13,6 +13,15 @@ var checkForQu = function (str){
   }
 }
 
+var translatePhrase = function (phrase){
+  var phraseArray = phrase.split(" ");
+  var translatedArray = [];
+  for (var i =0; i<phraseArray.length; i++){
+    translatedArray.push(translateToPigLatin(phraseArray[i]));
+  }
+  return translatedArray.join(" ");
+}
+
 var translateToPigLatin = function (str){
   // var vowels = ["a", "e", "i", "o", "u"];
   // vowels = vowels.concat(vowels.join().toUpperCase().split(","));
@@ -41,5 +50,14 @@ var translateToPigLatin = function (str){
 }
 // Front End
 $(function(){
-
+  $("#submitForm").submit(function(){
+    // console.log("got here");
+    $(".hiddenResults").show();
+    $(".original").empty();
+    $(".translated").empty();
+    var usrPhrase = $("#phrase-input").val();
+    $(".original").text(usrPhrase);
+    $(".translated").text(translatePhrase(usrPhrase));
+    event.preventDefault();
+    });
 });
