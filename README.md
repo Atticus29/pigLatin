@@ -33,6 +33,10 @@ Website that translates a string submitted by the user into piglatin and display
   * **Input Example**: "Queen"
   * **Output Example**: "eenQuay"
 
+* The program should only move "u"s that follow "q"s.
+  * **Input Example**: "running"
+  * **Output Example**: "unningray"
+
 ## Setup/Installation Requirements
 
 * This repository is meant to be viewed. It can be viewed [here](https://Atticus29.github.io/pigLatin).
