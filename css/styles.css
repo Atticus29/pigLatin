@@ -11,3 +11,6 @@ button{
 label, input{
   color: black;
 }
+.translated{
+  font-style: italic;
+}
