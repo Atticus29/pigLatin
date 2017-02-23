@@ -1,5 +1,5 @@
 
-# A bash script tool to help streamline creation of new websites for Epicodus
+# A website that converts phrases into pig latin
 
 #### 22 Feb., 2017, v.1.0.1
 
